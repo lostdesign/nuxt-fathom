@@ -1,7 +1,7 @@
 const { resolve, join } = require('path')
 
 export default function(moduleOptions) {
-  const options = { ...moduleOptions, ...this.options.nuxtFathom }
+  const options = { ...moduleOptions, ...this.options.fathom }
 
   if (!options.namespace) options.namespace = 'fathom'
   const { namespace } = options

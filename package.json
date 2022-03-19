@@ -1,0 +1,75 @@
+{
+  "name": "@lostdesign/nuxt-fathom",
+  "version": "0.0.0-development",
+  "description": "A simple package to use usefathom.com inside nuxt projects. Based on derrickreimer/fathom-client.",
+  "main": "module.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostdesign/nuxt-fathom.git"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt2",
+    "usefathom",
+    "fathom",
+    "analytics",
+    "fathom-client"
+  ],
+  "author": "André Weller <info@lost.design> (https://lost.design)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/lostdesign/nuxt-fathom/issues"
+  },
+  "homepage": "https://github.com/lostdesign/nuxt-fathom#readme",
+  "peerDependencies": {
+    "fathom-client": "3.x"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.2"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "repositoryUrl": "https://github.com/lostdesign/nuxt-fathom",
+    "debug": "true",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "package-lock.json",
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

@@ -117,4 +117,4 @@ See [advanced options for tracking](https://usefathom.com/support/tracking-advan
 
 # 💖 Sponsor
 
-If you enjoy the this package, please consider [becoming a sponsor or leave a tip](https://github.com/sponsors/lostdesign). 
+If you enjoy the this package, please consider [becoming a sponsor or leave a tip](https://github.com/sponsors/lostdesign) or use my referral link for [https://usefathom.com/ref/MQYHPK](https://usefathom.com/ref/MQYHPK) when signing up for fathom ❤️‍🔥.

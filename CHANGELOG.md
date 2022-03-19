@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/lostdesign/nuxt-fathom/compare/v1.0.1...v1.0.2) (2022-03-19)
+
+
+### Bug Fixes
+
+* **middleware:** middleware only in client process ([a7dcc7d](https://github.com/lostdesign/nuxt-fathom/commit/a7dcc7d599aebec8071e5870389eed94e39f8e37))
+
 ## [1.0.1](https://github.com/lostdesign/nuxt-fathom/compare/v1.0.0...v1.0.1) (2022-03-19)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@lostdesign/nuxt-fathom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple package to use usefathom.com inside nuxt projects. Based on derrickreimer/fathom-client.",
   "main": "module.js",
   "repository": {
